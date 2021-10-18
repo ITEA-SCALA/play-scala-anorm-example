@@ -24,3 +24,16 @@ Anorm не является объектно-реляционным базой
 
 ![Screenshot-2](screenshot-2.png)
 
+
+---
+
+### Cannot compile SBT plugin under Scala 2.13.0
+
+* https://github.com/sbt/sbt/issues/5032
+  * SBT 0.x работает только на Scala 2.10.x
+  * SBT 1.x работает только на Scala 2.12.x
+  * SBT 2.x будет работать только на Scala 2.13.x или 3.0.x
+  * SBT 3.x будет работать только на Scala 3.0.x или Scala 3.1.x
+
+
+
